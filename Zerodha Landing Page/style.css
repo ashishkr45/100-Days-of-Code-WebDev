@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nev {
+    top: 0;
+    padding-left: 9rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 1px 2px #eee;
+}
+
+.nev .logo img {
+    padding: 1.5rem;
+    max-height: 17px;
+    top: 18px;
+}
+
+.nev .links {
+    padding: 1.5rem;
+    padding-right: 3rem;
+    margin-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.nev .links .link {
+    padding-left: 2rem;
+    color: #666;
+    font-style: bold;
+}
+
+.nev .links .link:hover {
+    color: #387ed1;
+}
+
+.mainImg {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.mainImg img {
+    max-height: 22rem;
+}
+
+.tagLine {
+    color: #424242;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.tagLine h2 {
+    font-weight: 250;
+}
+
+
+.follow {
+    color: #424242;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.follow h6 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+.buttonCont {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 100px;
+    height: 23.93px;
+    background-color: #387ed1;
+    color: #f9faff;
+    border: none;
+    font-size: 18px;
+    border-radius: 3px;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 1.2em;
+    /* font-weight: 500; */
+    text-decoration: none;
+    border: 1px solid #bbb;
+    cursor: pointer;
+}
+
+.button h5 {
+    font-weight: 400;
+}
+
+.button:hover {
+    background-color: #222222;
+}
